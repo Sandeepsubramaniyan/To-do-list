@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {component} from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const todoItems = [
+  {
+    id: 2,
+    title: "walking",
+    description: "go to walking at 6 am",
+    completed: true
+  },
+  {
+    id: 3,
+    title: "going to market",
+    description: "buy apple 1kg",
+    completed: false
+  },
+  {
+    id: 4,
+    title: "Gym",
+    description: "Go to Gym evening by 6pm",
+    completed: false
+  }
+];
 
 export default App;
