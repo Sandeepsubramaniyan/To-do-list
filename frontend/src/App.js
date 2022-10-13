@@ -1,4 +1,4 @@
-import React, {component} from "react";
+import React, {Component} from "react";
 
 const todoItems = [
   {
@@ -20,5 +20,16 @@ const todoItems = [
     completed: false
   }
 ];
+
+class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      viewCompleted : false;
+      todoList : todoItems,
+    };
+  }
+
+}
 
 export default App;
