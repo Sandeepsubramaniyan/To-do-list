@@ -25,10 +25,13 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      viewCompleted : false;
+      viewCompleted : false,
       todoList : todoItems,
     };
   }
+
+ 
+
 
 }
 
